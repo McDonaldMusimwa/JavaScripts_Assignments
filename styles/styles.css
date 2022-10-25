@@ -7,47 +7,44 @@ overflow: hidden;
 }
 
 
-.head>img{
+header>img{
     width: 240px;
     height: 240px;
     display: flex;
     margin: 2rem 1rem 2rem 2rem;
     box-shadow: 2.5px 5px 4px 5px #3b3b3b ;
 }
-.head{
+header{
     background-color: var(--blue);
     display: flex;
     height: 300px;
 }
-.head>h1{
-    margin-left: 4rem;
-    margin-top: 6rem;
-}
-h3{
+
+h2{
     text-decoration: underline;
-    margin: 1rem 2rem 2rem 35rem;
+    margin: 1rem 2rem 2rem 5rem;
+    font-size: 25PX;
 }
-.main{
+main{
     justify-content: center;
     align-items: center;
     height: 60vh;
     overflow: none;
-    font-size: 2.5rem;
+    font-size: 20px;
 }
 ul{
-    margin: 1rem 2rem 2rem 35rem;
+    margin: 1rem 2rem 2rem 5rem;
 }
 footer{
     background-color: var(--blue);
     width:auto ;
     height: 90px;
     display: flex;
+    text-align: right;
 }
 footer>h3{
    margin-top: 0;
    margin-right: 0;
 }
-.footer{
-    margin: 1px 1rem 1px 1rem;
-}
+
 

@@ -5,12 +5,13 @@
 
 
 
-.displayarea{
+#display{
+    
     height: 40vh;
     width: 90vw;
     border: 2px solid black ;
     margin-top: 1rem;
-    box-shadow: 5px 10px #888888;
+    
     background-color: #FFF176;
     
 }
@@ -21,12 +22,12 @@
 }
 body{
     background-color: antiquewhite;
-    display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.head {
+.top {
     margin-top: 4rem;
     height: 10vh;
     width: 90vw;
@@ -35,21 +36,38 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 10px #aaaaaa;
+    box-shadow: 5px 10px 8px 10px #888888;
     font-size: small;
     background-color: #FFF176;
+    border-radius: 4px;
 }
-
-button{
-    background-color: #f8e216;
-    width: 8rem;
-    height: 2rem;
-    border-radius: 1rem;
-}
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 40%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 5px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
 .displayarea>span{
     margin-top: 4rem;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     
+}
+picture{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+picture{
+    text-align: center;
+    align-items: center;
+    padding: 9px;
 }

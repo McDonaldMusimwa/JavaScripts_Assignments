@@ -1,21 +1,23 @@
 @media only screen and (min-width: 32.5em) {
     h3 {
         text-decoration: underline;
-        margin: 1rem 2rem 2rem 5rem;
+        margin: 1rem 2rem 2rem 0;
         
     }
-    .main{
+    main{
         justify-content: center;
         align-items: center;
 
     }
-    .head{
+    header{
         background-color: var(--blue);
         display: flex;
         height: 110px;
     }
 
-
+    ul{
+        margin: 1rem 2rem 2rem 5rem;
+    }
 
 
 }
